@@ -16,7 +16,7 @@ A responsive, Gemini-styled AI chatbot powered by Mistral AI and FastAPI.
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/rohansachinpatil/ai-chatbot.git
    cd chatBot
    ```
 
