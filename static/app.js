@@ -183,7 +183,7 @@ async function sendMessage() {
   showTyping();
 
   try {
-    const res = await fetch('/chat', {
+    const res = await fetch('/api/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ messages }),
@@ -227,7 +227,7 @@ async function regenerate() {
   showTyping();
 
   try {
-    const res = await fetch('/chat', {
+    const res = await fetch('/api/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ messages }),
