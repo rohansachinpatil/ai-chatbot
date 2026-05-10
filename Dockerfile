@@ -1,13 +1,16 @@
 FROM python:3.11-slim
 
-WORKDIR /code
+RUN useradd -m -u 1000 user
+USER user
+ENV PATH="/home/user/.local/bin:$PATH"
 
-# Install dependencies
-COPY requirements.txt .
+WORKDIR /app
+
+COPY --chown=user requirements.txt requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy app code
-COPY . .
+COPY --chown=user . /app
 
 # Hugging Face Spaces uses port 7860 by default
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "7860"]
+
