@@ -1,3 +1,12 @@
+---
+title: AI ChatBot
+emoji: ✦
+colorFrom: blue
+colorTo: purple
+sdk: docker
+app_port: 7860
+---
+
 # AI Chat Bot ✦
 
 A responsive, Gemini-styled AI chatbot powered by Mistral AI and FastAPI.
