@@ -1,6 +1,6 @@
 ---
 title: AI ChatBot
-emoji: ✦
+emoji: 🤖
 colorFrom: blue
 colorTo: purple
 sdk: docker
