@@ -324,6 +324,34 @@ body { display: flex; overflow: hidden; }
 .btn-clear { background: #fff; color: var(--muted); border: 1px solid var(--border); }
 .btn-clear:hover { background: #fef2f2; color: #ef4444; border-color: #fca5a5; }
 
+/* ─── Footer ────────────────────────────────────────────────────────────────── */
+.app-footer {
+  text-align: center;
+  padding: 6px 0 10px;
+  font-size: 11px;
+  color: var(--muted);
+  background: var(--surface);
+  border-top: 1px solid rgba(0,0,0,0.03);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.app-footer a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color .15s;
+}
+.app-footer a:hover {
+  color: var(--accent2);
+  text-decoration: underline;
+}
+.app-footer span {
+  color: #d1d5db;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: transparent; }
