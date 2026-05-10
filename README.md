@@ -12,8 +12,7 @@ app_port: 7860
 A responsive, Gemini-styled AI chatbot powered by Mistral AI and FastAPI.
 
 ## Live Demo
-- **Hugging Face Space:** [https://huggingface.co/spaces/rohansachinpatil/ai-chatbot](https://huggingface.co/spaces/rohansachinpatil/ai-chatbot)
-- **Direct App Link (Fullscreen):** [https://rohansachinpatil-ai-chatbot.hf.space](https://rohansachinpatil-ai-chatbot.hf.space)
+- **Live App (Vercel):** [https://ai-chatbot-pnb8.vercel.app/](https://ai-chatbot-pnb8.vercel.app/)
 
 ## Features
 - **FastAPI Backend**: Fast, lightweight API.
