@@ -1,0 +1,8 @@
+GenAI/
+embeddingmodels/
+chatmodels/localmodel.py
+chatmodels/chatbot.py
+chatmodels/chat.py
+chatmodels/app.py
+Dockerfile
+render.yaml
